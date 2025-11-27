@@ -1,0 +1,183 @@
+.about {
+    padding: 0 110px;
+}
+
+/* TOP SECTION */
+.about-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.left-text {
+    max-width: 300px;
+}
+
+.small-title {
+    color: #e74c3c;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.big-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.top-desc {
+    max-width: 550px;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* IMAGES GRID */
+.about-images {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    gap: 25px;
+    /* <-- rasm oralarini ham ochiqroq qildim */
+}
+
+.img-box img {
+    width: 100%;
+    height: 790px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* Burchaklarni yumshatdim */
+    padding: 10px;
+}
+
+/* right column small images */
+.img-col {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* <-- Bo‘shliq oshirilgan */
+}
+
+.small-img {
+    width: 100%;
+    height: 385px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Responsive optional (istasa ochirib tashlashing mumkin) */
+@media(max-width: 900px) {
+    .about {
+        padding: 40px 30px;
+    }
+
+    .about-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-images {
+        grid-template-columns: 1fr;
+    }
+}
+
+.edu-work {
+    display: flex;
+    /* ← ONASINING FLEXI */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 80px;
+    font-family: "Inter", sans-serif;
+    gap: 50px;
+}
+
+/* Left va Right struktura */
+.left,
+.right {
+    width: 50%;
+}
+
+/* Titles */
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Items */
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    /* ← ONASINING FLEXI */
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 80px;
+    font-family: "Inter", sans-serif;
+    gap: 50px;
+}
+
+.item h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.item p {
+    margin: 5px 0 0;
+    font-size: 15px;
+    color: #666;
+}
+
+.date {
+    white-space: nowrap;
+    color: #555;
+}
+
+/* Icons */
+.company {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.pink {
+    background: #ff4ddf;
+}
+
+.blue {
+    background: #4d8fff;
+}
+
+.yellow {
+    background: #ffcc33;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .edu-work {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+}

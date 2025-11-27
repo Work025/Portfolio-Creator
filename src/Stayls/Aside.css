@@ -1,0 +1,91 @@
+.aside {
+    position: relative;
+    width: 100%;
+    top: -240px;
+    height: 1637px;
+    display: flex;
+    gap: 72px;
+    align-items: flex-start;
+    padding: 200 110px 0 110px;
+    background-color: #000;
+    z-index: 1;
+}
+
+.aside-name {
+    width: 450px;
+    height: 293px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 280px 0 0 110px;
+}
+
+.aside-name span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFA84B;
+}
+
+.aside-name h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.aside-name p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.aside-blogs {
+    width: 693px;
+    height: auto;
+    display: flex;
+    gap: 65px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 320px;
+}
+
+.aside-card {
+    width: 100%;
+    height: 204px;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-bottom: 2px solid #888;
+}
+
+.aside-card span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.aside-card h3 {
+    width: 574px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.aside-card p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
